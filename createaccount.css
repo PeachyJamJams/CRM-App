@@ -1,0 +1,19 @@
+.create-account-container {
+    /* Add styling similar to your login page */
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .create-account-form .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .create-account-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

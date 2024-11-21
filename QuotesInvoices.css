@@ -1,0 +1,78 @@
+/* QuotesInvoices.css */
+.quotes-invoices-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quotes-invoices-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .new-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .new-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quotes-invoices-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .quote-invoice {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quote-invoice h3 {
+    margin: 0 0 5px;
+    color: #007bff;
+  }
+  
+  .quote-invoice p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .quote-invoice button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .quote-invoice button:hover {
+    background-color: #0056b3;
+  }
+  
+  .quote-invoice.paid {
+    border-left: 5px solid #28a745;
+  }
+  
+  .quote-invoice.pending {
+    border-left: 5px solid #ffc107;
+  }
+  
+  .quote-invoice.overdue {
+    border-left: 5px solid #dc3545;
+  }
+  
